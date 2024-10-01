@@ -14,7 +14,7 @@ Now you can start the api by typing node server.js and press enter again
 
 # Testing
 
-To test endpoints I have chosen to use Postman, so please mak sure you have this downloaded on your device. You also will find all url templates for all requests in the rest.http file.
+To test endpoints I have chosen to use Postman, so please make sure you have this downloaded on your device. You also will find all url templates for all requests in the rest.http file.
 
 As an example of testing/requests I will use Movie Listings, please note bookings are slightly different and explained at the bottom of this section.
 
