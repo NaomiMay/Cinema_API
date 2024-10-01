@@ -1,0 +1,15 @@
+//Entry point for app
+
+import serverApp from "../server.js"; //importing server.js containing Express app
+import http from "http";
+import debug from "debug";
+const PORT = 3000;
+
+const debugLog = debug("myapp:server");
+
+//HTTP server
+const server = http.createServer(serverApp);
+
+server.listen(PORT);
+server.on("error", onError);
+server.on("listening", onListening);

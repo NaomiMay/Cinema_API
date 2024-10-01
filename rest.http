@@ -1,0 +1,61 @@
+
+//Bookings
+//GET all bookings:
+//http://localhost:3000/api/bookings
+
+//GET booking by user ID:
+//http://localhost:3000/api/bookings/user/:userID
+
+//GET booking by ID:
+//http://localhost:3000/api/bookings/:id
+
+//POST a new booking:
+//http://localhost:3000/api/bookings
+
+//PUT to update a booking by ID:
+//http://localhost:3000/api/bookings/:id
+
+//DELETE a booking by ID:
+//http://localhost:3000/api/bookings/:id
+
+
+
+//Movie Lsitings
+//GET all movie listings:
+//http://localhost:3000/api/movies
+
+//GET movie listing by ID:
+//http://localhost:3000/api/movies/:id
+
+//GET movie listings by date:
+//http://localhost:3000/api/movies/date/:date
+
+//POST a new movie listing:
+//http://localhost:3000/api/movies
+
+//PUT to update a movie listing by ID:
+//http://localhost:3000/api/movies/:id
+
+//DELETE a movie listing by ID:
+//http://localhost:3000/api/movies/:id
+
+
+
+//Users
+//GET all users:
+//http://localhost:3000/api/users
+
+//GET user by ID:
+//http://localhost:3000/api/users/:id
+
+//GET user by last name:
+//http://localhost:3000/api/users/lastName/:lastName
+
+//POST a new user:
+//http://localhost:3000/api/users
+
+//PUT to update a user by ID:
+//http://localhost:3000/api/users/:id
+
+//DELETE a user by ID:
+//http://localhost:3000/api/users/:id
